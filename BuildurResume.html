@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume.charan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f7fb;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #e6e9ee;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        h1 {
+            font-size: 2.4rem;
+            margin: 0;
+        }
+        p.subtitle {
+            color: #555;
+            margin: 6px 0 0;
+        }
+        .section-title {
+            margin-top: 30px;
+            margin-bottom: 12px;
+            border-left: 4px solid #2d6cdf;
+            padding-left: 12px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #2d6cdf;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .column {
+            flex: 1 1 250px;
+            min-width: 260px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .card h3 {
+            margin: 0 0 8px;
+            font-size: 1.05rem;
+        }
+        .card p,
+        .card ul {
+            margin: 0;
+            color: #555;
+        }
+        .card ul {
+            list-style: disc inside;
+            padding-left: 0;
+        }
+        .card li {
+            margin-bottom: 8px;
+        }
+        .details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 10px;
+        }
+        .details div {
+            color: #555;
+        }
+        @media (max-width: 700px) {
+            .details {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rodda Charan</h1>
+            <p class="subtitle">Front-End Developer | Resume Builder | Clean UI & Modern Design</p>
+            <p class="subtitle">Email: charan887795@gmail.com | Phone: 91+ 7730975451 | Location: Bangalore, India</p>
+        </header>
+
+        <section>
+            <h2 class="section-title">Professional Summary</h2>
+            <p>Creative front-end developer with experience building responsive, accessible resumes and landing pages using HTML, CSS, and JavaScript. Strong eye for clean design, layout, and structured content presentation.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <h3>Technical Skills</h3>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>Responsive design</li>
+                            <li>JavaScript essentials</li>
+                            <li>Layout and typography</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h3>Tools & Platforms</h3>
+                        <ul>
+                            <li>VS Code</li>
+                            <li>Git / GitHub</li>
+                            <li>Figma basics</li>
+                            <li>Browser developer tools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Experience</h2>
+            <div class="card">
+                <h3>Front-End Intern / Resume Builder Project</h3>
+                <p><strong>Self-directed project</strong> | Bangalore, India</p>
+                <div class="details">
+                    <div>Designed and developed a modern resume layout using semantic HTML and CSS.</div>
+                    <div>Implemented responsive styling for desktop and mobile screens.</div>
+                    <div>Organized content into sections for a clean, easy-to-read presentation.</div>
+                    <div>Focused on accessibility, contrast, and readability.</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Education</h2>
+            <div class="card">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>College Name, City</p>
+                <p>Graduated 2024</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Projects</h2>
+            <div class="card">
+                <h3>Resume Builder Web Page</h3>
+                <p>Created a clean, branded resume template in a single HTML file with fully styled sections, mobile responsiveness, and clear layout hierarchy.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
